@@ -5,13 +5,13 @@
 }
 
 .styling {
-    padding-left: 80px;
-    padding-right: 100px;
+    padding-left: 120px;
+    padding-right: 140px;
 }
 
 .stylingb {
-    margin-left: 80px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 140px;
 }
 
 .mainSec{
@@ -36,3 +36,6 @@
     border-image: linear-gradient(to bottom, #E99822, #BB126C);
     border-image-slice: 1;
   }
+
+
+  
