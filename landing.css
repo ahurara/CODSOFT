@@ -1,0 +1,38 @@
+.header {
+    background-image: linear-gradient(to right, #E99822, #BB126C);
+    color: white !important;
+
+}
+
+.styling {
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.stylingb {
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.mainSec{
+    background-image: url('./Assets/kobu-agency-7okkFhxrxNw-unsplash.jpg');
+    background-size: cover  ;
+    background-color: rgba(70, 69, 69, 0.8);
+    background-blend-mode:overlay;
+
+}
+
+.consultBtn{
+    border: 2px solid white  !important;
+    color: white  !important;
+    border-radius: 50px  !important;
+    white-space: nowrap  !important;
+    overflow: hidden  !important;
+}
+
+
+.element-with-gradient-border {
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, #E99822, #BB126C);
+    border-image-slice: 1;
+  }
