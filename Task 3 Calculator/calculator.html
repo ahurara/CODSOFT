@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="container-fluid" >
+
+      <div class="row" style="justify-content: center ;" >
+        <div class="col-md-5"  style="box-shadow: 10px 10px 10px 10px grey;height: 500px ;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;border-top-right-radius: 20px;border-top-left-radius: 20px;margin-top: 100px;background-color: #292559" >
+
+          <div class="row" >
+            <div class="col-md-12">
+             <P  style="color: white;margin-left: 20px;margin-top: 10px">Designed Calculator</P>
+             <form id="myform">
+          <div class="input-group mb-3" style="margin-top: 20px">
+  <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1" 
+  name="display" id="display">
+</div>
+</div>
+</div>
+
+<div class="row" >
+<div class="col-md-12">
+<button type="button" class="btn btn-secondary  " style="width: 20%" onclick="click1()">1</button>
+<button type="button" class="btn btn-secondary  " style="width: 20%" onclick="click2()">2</button>
+<button type="button" class="btn btn-secondary  " style="width: 20%" onclick="click3()">3</button>
+<button type="button" class="btn btn-secondary  " style="width: 35%" onclick="add()">+</button>
+<br>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-12">
+<button type="button" class="btn btn-secondary  " style="width: 20%" onclick="click4()">4</button>
+<button type="button" class="btn btn-secondary  " style="width: 20%" onclick="click5()">5</button>
+<button type="button" class="btn btn-secondary  " style="width: 20%" onclick="click6()">6</button>
+<button type="button" class="btn btn-secondary " style="width: 35%" onclick="sub()">-</button>
+<br>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-12">
+<button type="button" class="btn btn-secondary  " style="width: 20%" onclick="click7()">7</button>
+<button type="button" class="btn btn-secondary  " style="width: 20%" onclick="click8()">8</button>
+<button type="button" class="btn btn-secondary  " style="width: 20%" onclick="click9()">9</button>
+<button type="button" class="btn btn-secondary " style="width: 35%" onclick="mult()">*</button>
+<br>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-12">
+<button type="button" class="btn btn-secondary " style="width: 41%" onclick="click0()">0</button>
+<button type="clear" class="btn btn-secondary " style="width: 20%" onclick="clear()">clear</button>
+<button type="button" class="btn btn-secondary " style="width: 35%" onclick="div()">/</button>
+<br>
+<br>
+</div>
+</div>
+<div class="row">
+  <hr>
+<div class="col-md-12">
+<button type="button" class="btn btn-secondary btn-block " onclick="solve()">=</button>
+</form>
+</div>
+</div>
+<p align="center" style="color:white;margin-top: 20px;font-size:20px  ">CHAMP</p>
+
+
+
+
+
+
+          
+        </div>
+      </div>
+      
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script type="text/javascript">
+     function click1()
+     {
+      document.getElementById("display").value+="1";
+     }
+
+
+     function click2()
+     {
+      document.getElementById("display").value+="2";
+     }
+
+
+     function click3()
+     {
+      document.getElementById("display").value+=("3");
+     }
+
+
+     function click4()
+     {
+      document.getElementById("display").value+=("4");
+     }
+
+
+     function click5()
+     {
+      document.getElementById("display").value+=("5");
+     }
+
+
+     function click6()
+     {
+      document.getElementById("display").value+=("6");
+     }
+
+
+     function click7()
+     {
+      document.getElementById("display").value+=("7");
+     }
+
+
+     function click8()
+     {
+      document.getElementById("display").value+=("8");
+     }
+
+
+     function click9()
+     {
+      document.getElementById("display").value+=("9");
+     }
+
+
+     function click0()
+     {
+      document.getElementById("display").value+=("0");
+     }
+
+     function add()
+     {
+      document.getElementById("display").value+=("+");
+     }
+
+     function sub()
+     {
+      document.getElementById("display").value+=("-");
+     }
+
+     function div()
+     {
+      document.getElementById("display").value+=("/");
+     }
+
+     function mult()
+     {
+      document.getElementById("display").value+=("*");
+     }
+
+     function solve()
+     {
+      var sol=eval(display.value);
+      document.getElementById("display").value=sol;
+     }
+
+     
+
+
+
+
+   </script>
+
+
+  </body>
+</html>
